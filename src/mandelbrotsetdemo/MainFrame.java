@@ -17,9 +17,9 @@ import javax.swing.SwingUtilities;
  * @author HuangDiWen
  * @created 2014-1-17 14:46:29
  */
-public class Frame extends JFrame {
+public class MainFrame extends JFrame {
 
-    public Frame() {
+    public MainFrame() {
         initComponents();
     }
 
@@ -95,7 +95,7 @@ public class Frame extends JFrame {
         SwingUtilities.invokeLater(new Runnable() {
             @Override
             public void run() {
-                new Frame().setVisible(true);
+                new MainFrame().setVisible(true);
             }
         });
     }
